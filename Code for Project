@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <script src="https://kit.fontawesome.com/515aecdffd.js"crossorgin"anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav>
+      <ul>
+      <li><a href="#">FOLLOW@UNCART</a></li>
+      <li><a href="#">UNCART.com</a></li>
+      <li><a href="#">SHOPUNCART.COM</a></li>
+      <li><a href="#">UNCART.TV</a></li>
+        <li><a href="#">LANGUAGE:ENGLISH</A></LI>
+    </ul>
+      </nav>
+     <hr>
+      <h2>&#9734UNCART&#9734<i class="fas fa-search"></i></h2><!---make new file for true search--->    
+    </header>
+  <main>
+    <ul>
+      <li><a href="#">TECH</a></li>
+      <li><a href="#">STYLE</a></li>
+      <li><a href="#">GEAR</a></li>
+      <li><a href="#">CARS</a></li>
+      <li><a href="#">ETC</a></li>
+    </ul>
+      <hr>
+      <hr>
+      </main>
+  <div class="container-lg my-3">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/examples/images/slide1.png" class="d-block" alt="">
+              <i class="fa-solid fa-car fa-8x"style="color: dodgerblue;"></i>  
+            </div>
+            <div class="carousel-item">
+                <img src="/examples/images/slide2.png" class="d-block w-100" alt=""><i class="fa-solid fa-music fa-8x" style="color: #424874;"></i>
+            </div>
+            <div class="carousel-item">
+                <img src="/examples/images/slide3.png" class="d-block w-100" alt=""><i class="fa-solid fa-house fa-8x" style="color: #c51350;"></i>
+            </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+CSS
+
+header{
+  border: 3px solid navy;
+  text-align: center;
+  background-color: gold;
+  font-family: Hack sans-serif;
+}
+  h2{
+    color:whitesmoke;
+    font-style: bold;
+    font-size: 48px !important;
+  } 
+i{
+  margin-left: 30px;
+  color: black;
+}
+
+li,a{
+  text-decoration: none !important;
+  color: black !important;
+  display: inline;  
+  padding: 3px;
+  font-size: 15px ;
+  font-family: Helvetica sans-serif;
+}
+
+ul{
+  text-align: center;
+}
+.carousel-item{
+    min-height: 280px;
+  text-align:center;
+  background-color:#a7bcb9;
+  padding: 60px;
+}
+
+
+
